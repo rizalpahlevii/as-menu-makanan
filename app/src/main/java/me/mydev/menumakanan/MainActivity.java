@@ -29,29 +29,29 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         this.listMakanan = new ArrayList<>();
         listMakanan.add(new Kuliner("Pecel Lele",
-                "Rp. 15.000",
+                "15000",
                 "Pecel lele dengan bumbu kacang resep turun temurun",
                 R.drawable.peclele));
 
         listMakanan.add(new Kuliner("Nasi Goreng Mercon",
-                "Rp. 14.500",
+                "14500",
                 "Nasi goreng mercon yang tingkat kepedesannya bisa kamu pilih sesuai yang kalian mau",
                 R.drawable.nasgor));
 
         listMakanan.add(new Kuliner("Ayam Geprek Keju",
-                "Rp. 20.000",
+                "20000",
                 "Ayam geprek dengan keju meleleh di atasnya",
                 R.drawable.geprekkeju));
         listMakanan.add(new Kuliner("Kari Ayam",
-                "Rp. 17.500",
+                "17500",
                 "Ayam dengan bumbu kari khas resep turun temurun",
                 R.drawable.kareayam));
         listMakanan.add(new Kuliner("Tahu Bulat",
-                "Rp. 500",
+                "500",
                 "Tahu bulat dengan sambal yang cocok buat kalian ngemeal",
                 R.drawable.tahubulat));
         listMakanan.add(new Kuliner("Salad Buah",
-                "Rp. 12.000",
+                "12000",
                 "Salad dengan berbagai macam sayuran segar",
                 R.drawable.salad));
     }

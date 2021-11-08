@@ -62,6 +62,11 @@ public class KulinerAdapter extends RecyclerView.Adapter<KulinerAdapter.ViewHold
         return listMakanan.size();
     }
 
+    private String rupiahFormat(int param){
+        return "Rp. " + param;
+    }
+
+
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         public TextView txtNama, txtHarga;
@@ -70,12 +75,10 @@ public class KulinerAdapter extends RecyclerView.Adapter<KulinerAdapter.ViewHold
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-
-        txtNama = itemView.findViewById(R.id.txtNama);
-        txtHarga = itemView.findViewById(R.id.txtHarga);
-        imgFoto = itemView.findViewById(R.id.imgFoto);
-
-        this.itemView = (ConstraintLayout) itemView.findViewById(R.id.main_layout);
+            txtNama = itemView.findViewById(R.id.txtNama);
+            txtHarga = itemView.findViewById(R.id.txtHarga);
+            imgFoto = itemView.findViewById(R.id.imgFoto);
+            this.itemView = (ConstraintLayout) itemView.findViewById(R.id.main_layout);
         }
     }
 }
